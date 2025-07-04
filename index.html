@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Arry</title>
+</head>
+<body>
+    
+<script>
+
+ let marks = [90, 46, 78, 90, 23, 56, 78, 89, 55, 90];
+
+        for(let i=0; i<=9; i++)
+            if(marks[i] >= 80){
+                console.log(marks[i]+"=The grade is A+");
+            }
+
+            else if(marks[i] >= 70){
+                console.log(marks[i]+"=The grade is A");
+            }
+
+            else if(marks[i] >=60){
+                console.log(marks[i]+"=The grade is A-")
+            }
+
+            else if(marks[i] >=50){
+                console.log(marks[i]+"=The garde is B")
+            }
+
+            else if(marks[i] >=40){
+                console.log(marks[i]+"=The grade is C")
+            }
+
+            else if(marks[i] >=33){
+                console.log(marks[i]+"=The grade is F")
+            }
+
+            else{
+                console.log(marks[i]+"=The grade is F");
+            }
+
+            console.log("=========Which digits are divisible by 5?==========")
+
+          let digits = [456, 765, 78, 890, 87, 90, 657, 980, 654];
+
+          for(let i=0; i<=8; i++){
+
+            if(digits[i]%5 == 0){
+                console.log(digits[i]+"=The number is even")
+            }
+
+            else{
+                console.log(digits[i]+"=The number is odd")
+            }
+
+          }
+
+          console.log("=======Which persons are eligible for voting?========")
+
+          let ages = [23, 9, 76, 89, 43, 12, 76, 90, 54, 89];
+
+          for(let i=0; i <=9; i++){
+
+            if(ages[i] >=18){
+                console.log("This Person not ready to vot")
+            }
+
+            else{
+                console.log("THis Person ready to vot")
+            }
+          }
+
+
+
+
+
+
+</script>
+
+
+
+
+</body>
+</html>
